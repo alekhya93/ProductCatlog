@@ -1,0 +1,107 @@
+.header {
+  padding: 16px 0;
+  height: 79px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  .lhs-container {
+    height: 40px;
+    display: inline-block;
+    .logo {
+      background-size: 100%;
+      width: 172px;
+      height: 34px;
+      padding-right: 24px;
+      display: inline-block;
+      img {
+        vertical-align: middle;
+      }
+    }
+    .dashboard{
+      background:#d3d3d3;
+      margin-right: 7px;
+    }
+    .button{
+      height: 46px;
+      border-radius: 4px;
+    }
+  }
+  .rhs-container {
+    display: inline;
+
+    .nav {
+      li {
+        float: left;
+        margin-right: 16px;
+        width: 46px;
+        height: 46px;
+        background: #d3d3d3 0% 0% no-repeat padding-box;
+        border-radius: 8px;
+      }
+      li a {
+        display: block;
+        width: 32px;
+        height: 32px;
+        text-align: center;
+        line-height: 32px;
+      }
+      .calendar{
+        padding: 12px;
+        width: auto;
+        display: inline-flex;
+        background: #ffffff 0% 0% no-repeat padding-box;
+        .dividerLine {
+          top: 8px;
+          width: 1px;
+          background: #a0a0a0;
+          content: "";
+          bottom: 0;
+          height: 24px;
+          margin: 0px;
+          display: inline-block;
+          margin: 0px 8px;
+        }
+      }
+      .alaram {
+        padding: 12px;
+        width: auto;
+        display: inline-flex;
+        .dividerLine {
+          top: 8px;
+          width: 1px;
+          background: #a0a0a0;
+          content: "";
+          bottom: 0;
+          height: 24px;
+          margin: 0px;
+          display: inline-block;
+          margin: 0px 8px;
+        }
+        img {
+          width: 23px;
+          height: 23px;
+        }
+      }
+      .notification {
+        padding: 0px;
+        img {
+          padding: 6px;
+          vertical-align: middle;
+        }
+      }
+    }
+    .user-block {
+      position: relative;
+      cursor: pointer;
+      .user {
+        width: 46px;
+        height: 46px;
+        overflow: hidden;
+        margin-right: 14px;
+      }
+      .user-name {
+        font-size: 1.4rem;
+        color: #333;
+        padding: 16px 16px 0 0;
+      }
+    }
+  }
+}

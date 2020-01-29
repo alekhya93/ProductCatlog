@@ -1,0 +1,37 @@
+.product-grid {
+  .card-header {
+    img {
+      width: 257px;
+      height: 144px;
+      max-block-size: fit-content;
+      inline-size: -webkit-fill-available;
+    }
+  }
+  .main-content {
+    h3 {
+      font-size: 18px;
+      font-weight: bold;
+      display: block;
+  white-space: nowrap;
+  width: 12em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+    }
+    h1 {
+      font-size: 14px;
+      color: #0b785b;
+      display: block;
+  white-space: nowrap;
+  width: 12em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+    }
+    p {
+      font-size: 12px;
+      color: #747474;
+      line-height: 1.5em;
+    height: 3em;
+    overflow: hidden;
+    }
+  }
+}
